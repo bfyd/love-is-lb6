@@ -266,7 +266,7 @@ int main()
 	printG(G1, nG1);
 	printf("2 граф\n");
 	printG(G2, nG2);
-	printf("отождествеление\n");
+	printf("отождествление\n");
 	scanf_s("%d", &n1);
 	scanf_s("%d", &n2);
 	G2 = unionV(G2, nG2, n1, n2);
